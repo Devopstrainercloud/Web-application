@@ -1,1 +1,40 @@
-https://github.com/Devopstrainercloud/Web-application.git
+EC2
+Instances
+i-04cf6533ee7c3a0cd
+Connect to instance
+EC2
+Instances
+i-04cf6533ee7c3a0cd
+Connect to instance
+Connect to instance Info
+Connect to your instance i-04cf6533ee7c3a0cd (Git Machine Pull Request) using any of these options
+
+
+EC2 Instance Connect
+
+Session Manager
+
+SSH client
+
+EC2 serial console
+Instance ID
+
+i-04cf6533ee7c3a0cd (Git Machine Pull Request)
+Open an SSH client.
+
+Locate your private key file. The key used to launch this instance is harishsoftware.pem
+
+Run this command, if necessary, to ensure your key is not publicly viewable.
+
+chmod 400 "harishsoftware.pem"
+
+Connect to your instance using its Public DNS:
+
+ec2-65-1-109-80.ap-south-1.compute.amazonaws.com
+
+Example:
+
+
+ssh -i "harishsoftware.pem" ec2-user@ec2-65-1-109-80.ap-south-1.compute.amazonaws.com
+Note: In most cases, the guessed username is correct. However, read your AMI usage instructions to check if the AMI owner has changed the default AMI username.
+Cancelhttps://github.com/Devopstrainercloud/Web-application.git
